@@ -1,0 +1,35 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "<you>"
+        ]
+    },
+    "header": {
+        "name": "Example UI template",
+        "description": "Example UI template",
+        "uuid": "4bf56698-1787-4f56-8b48-506976784ed6",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "Example UI data module",
+            "type": "data",
+            "uuid": "04680496-f5d5-4f20-adfa-e8173ec6aa88",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "Example UI client scripts",
+            "type": "client_data",
+            "uuid": "5a9d1089-c566-46b6-a3d7-ba7a9effd3b6",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "50fc06c8-7bb6-464d-9204-26ae8875cf46",
+            "version": [1, 0, 0]
+        }
+    ]
+}

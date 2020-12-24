@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../assets/fonts/minecraft.woff) format('woff'),
+         url(../assets/fonts/minecraft.eot) format('eot'),
+         url(../assets/fonts/minecraft.ttf) format('ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Minecraft';
+    height: 100vh;
+}
+
+.panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    min-height: 300px;
+    background-color: #8B8B8B;
+    border-width: 20px 10px 10px 10px;
+    border-style: solid;
+    border-color: #bdbdbd;
+    border-radius: 30px/30px;
+}
+

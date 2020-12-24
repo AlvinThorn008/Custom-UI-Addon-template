@@ -1,0 +1,27 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "<you>"
+        ]
+    },
+    "header": {
+        "name": "Example UI template",
+        "description": "Example UI template",
+        "uuid": "50fc06c8-7bb6-464d-9204-26ae8875cf46",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "Example UI data module",
+            "type": "resources",
+            "uuid": "72ce8caf-cb34-4cfb-9b21-5e28465f6aa6",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [],
+    "capabilities": [
+        "experimental_custom_ui"
+    ]
+}
